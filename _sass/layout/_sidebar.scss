@@ -325,19 +325,38 @@
 
 /* ===== Mobile: stack author avatar & content ===== */
 @include breakpoint(max-width $large) {
-  .author__avatar,
-  .author__content,
+  /* 전체 가운데 정렬 */
+  .author-profile {
+    text-align: center;
+  }
+
+  /* 1️⃣ avatar: 위에 단독 중앙 */
+  .author__avatar {
+    display: block;
+    margin: 0 auto 10px;
+    width: auto;
+  }
+
+  /* 2️⃣ content + button을 한 줄 2-column으로 */
+  .author__content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    column-gap: 12px;
+
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  /* 3️⃣ 버튼을 content 오른쪽 column으로 올리기 */
   .author__urls-wrapper {
     display: block;
   }
 
-  .author__avatar {
-    width: auto;
-    margin-bottom: 8px;
-  }
-
-  .author__content {
-    padding-left: 0;
-    padding-right: 0;
+  /* grid에 버튼을 끼워 넣기 */
+  .author__content + .author__urls-wrapper {
+    grid-column: 2;
+    grid-row: 1;
   }
 }
