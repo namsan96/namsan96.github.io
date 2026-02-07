@@ -322,3 +322,32 @@
     }
   }
 }
+
+/* ===== Mobile: stack author avatar & content ===== */
+.author__avatar,
+.author__content {
+  @media screen and (max-width: 480px) {
+    display: block;
+  }
+}
+
+.author__avatar {
+  @media screen and (max-width: 480px) {
+    width: auto;
+    margin-bottom: 8px;
+  }
+}
+
+.author__content {
+  @media screen and (max-width: 480px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.author__urls-wrapper {
+  @media screen and (max-width: 480px) {
+    display: block;
+    margin-top: 6px;
+  }
+}
