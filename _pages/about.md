@@ -14,6 +14,7 @@ My research interest is to extend the successes of machine learning to the physi
 
 
 
+
 # Publications
 ### **SpeedAug: Policy Acceleration via Tempo-Enriched Policy and RL Fine-Tuning**  
 **arXiv 2025** [[paper](https://arxiv.org/abs/2512.00062)]  
