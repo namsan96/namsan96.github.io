@@ -13,7 +13,6 @@ My research interest is to extend the successes of machine learning to the physi
 
 # Publications
 ### **SpeedAug: Policy Acceleration via Tempo-Enriched Policy and RL Fine-Tuning**  
-
 **arXiv 2025** [[paper](https://arxiv.org/abs/2512.00062)]  
 **Taewook Nam**, Sung Ju Hwang
 
@@ -21,10 +20,21 @@ My research interest is to extend the successes of machine learning to the physi
 
 ### LiFT: Unsupervised Reinforcement Learning with Foundation Models as Teachers  
 **NeurIPS 2023 Workshop ALOE** [[paper](https://openreview.net/pdf?id=BJgd81SYwr)] [[project](https://gimme1dollar.github.io/lift/)] [[code](https://github.com/haebeom-lee/metadrop)]  
-**Taewook Nam***, Juyong Lee*****, Jesse Zhang, Sung Ju Hwang, Joseph J Lim, Karl Pertsch
+**Taewook Nam**, Juyong Lee, Jesse Zhang, Sung Ju Hwang, Joseph J Lim, Karl Pertsch
 
 ---
 
+### Skill-Based Meta-Reinforcement Learning
+**ICLR 2022** [[paper](https://openreview.net/pdf?id=jeLW-Fh9bV)] [[project](https://namsan96.github.io/SiMPL/)] [[code](https://github.com/namsan96/SiMPL)]  
+**Taewook Nam**, Shao-Hua Sun, Karl Pertsch, Sung Ju Hwang, Joseph J. Lim
+
+---
+
+### Meta Dropout : Learning to Perturb Latent Features For Generalization
+**ICLR 2020** [[paper](https://openreview.net/pdf?id=jeLW-Fh9bV)] [[code](https://github.com/haebeom-lee/metadrop)]  
+**Taewook Nam**, Shao-Hua Sun, Karl Pertsch, Sung Ju Hwang, Joseph J. Lim
+
+<!--
 <div style="overflow: auto;">
   <img src="/files/simpl.png"
        style="float: left; width: 150px; margin: 0 1em 0.5em 0;">
@@ -48,3 +58,4 @@ My research interest is to extend the successes of machine learning to the physi
   [<a href="https://namsan96.github.io/SiMPL/">project</a>]<br>
   Hae Beom Lee, <strong>Taewook Nam</strong>, Eunho Yang, Sung Ju Hwang
 </div>
+-->
