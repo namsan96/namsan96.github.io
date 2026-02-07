@@ -324,38 +324,20 @@
 }
 
 /* ===== Mobile: stack author avatar & content ===== */
-.author__avatar,
-.author__content {
-  @media screen and (max-width: 480px) {
-    display: block;
-  }
-}
-
-.author__avatar {
-  @media screen and (max-width: 480px) {
-    width: auto;
-    margin-bottom: 8px;
-  }
-}
-
-.author__content {
-  @media screen and (max-width: 480px) {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-.author__urls-wrapper {
-  @media screen and (max-width: 480px) {
-    display: block;
-    margin-top: 6px;
-  }
-}
-
-@media screen and (max-width: 480px) {
+@include breakpoint(max-width $large) {
   .author__avatar,
   .author__content,
   .author__urls-wrapper {
     display: block;
+  }
+
+  .author__avatar {
+    width: auto;
+    margin-bottom: 8px;
+  }
+
+  .author__content {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
