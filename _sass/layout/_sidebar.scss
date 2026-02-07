@@ -340,15 +340,15 @@
 
   .author__avatar {
     width: auto;
-  }
-
-  .author__avatar img {
-    width: 80px;     // 원하는 크기
-    height: 80px;    // 정사각형이면 이 정도
-    border-radius: 50%;
-    object-fit: cover;
     margin-bottom: 8px;
   }
+
+  // .author__avatar img {
+  //   width: 80px;     // 원하는 크기
+  //   height: 80px;    // 정사각형이면 이 정도
+  //   border-radius: 50%;
+  //   object-fit: cover;
+  // }
 
   .author__urls-wrapper {
     margin-top: 4px;
