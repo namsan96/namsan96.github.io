@@ -327,13 +327,13 @@
 @include breakpoint(max-width $large) {
   .author-profile {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: max-content max-content;
     grid-template-areas:
       "avatar avatar"
       "content button";
 
-    justify-content: center;   // grid 덩어리 자체 중앙
-    justify-items: center;     // 아이템 기본 중앙
+    justify-content: center;
+    justify-items: center;
     align-items: start;
 
     column-gap: 12px;
@@ -341,29 +341,25 @@
     text-align: left;
   }
 
-  /* 🔥 table-cell 끊기 */
   .author__avatar,
   .author__content,
   .author__urls-wrapper {
-    display: block;
+    display: block; /* table-cell 끊기 */
   }
 
-  /* avatar */
   .author__avatar {
     grid-area: avatar;
-    justify-self: center;
     margin-bottom: 8px;
-    width: auto;
   }
 
-  /* name + bio */
   .author__content {
     grid-area: content;
     padding: 0;
+    justify-self: end;   /* 🔑 핵심 */
   }
 
-  /* Links button */
   .author__urls-wrapper {
     grid-area: button;
+    justify-self: start;
   }
 }
