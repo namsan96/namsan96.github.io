@@ -329,28 +329,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
-  }
-
-  .author__content,
-  .author__urls-wrapper {
-    width: 100%;
-    text-align: center;
+    gap: 8px; // avatar-name/bio-button 사이 간격
   }
 
   .author__avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: auto;
     margin-bottom: 8px;
   }
 
-  // .author__avatar img {
-  //   width: 80px;     // 원하는 크기
-  //   height: 80px;    // 정사각형이면 이 정도
-  //   border-radius: 50%;
-  //   object-fit: cover;
-  // }
-
   .author__urls-wrapper {
     margin-top: 4px;
+  }
+
+  .author__content-urls-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .author__content,
+  .author__urls-wrapper {
+    display: inline-block;
+    width: 100%;
+    text-align: center; // 필요시
   }
 }
