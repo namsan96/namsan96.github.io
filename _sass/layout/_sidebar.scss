@@ -338,6 +338,10 @@
     text-align: center;
   }
 
+  .author__avatar {
+    width: auto;
+  }
+
   .author__avatar img {
     width: 80px;     // 원하는 크기
     height: 80px;    // 정사각형이면 이 정도
