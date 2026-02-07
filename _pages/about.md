@@ -19,7 +19,7 @@ My research interest is to extend the successes of machine learning to the physi
 ---
 
 ### LiFT: Unsupervised Reinforcement Learning with Foundation Models as Teachers  
-**NeurIPS 2023 Workshop ALOE** [[paper](https://openreview.net/pdf?id=BJgd81SYwr)] [[project](https://gimme1dollar.github.io/lift/)] [[code](https://github.com/haebeom-lee/metadrop)]  
+**NeurIPS 2023 Workshop ALOE** [[paper](https://openreview.net/pdf?id=BJgd81SYwr)] [[code](https://github.com/jylee425/lift)]  
 **Taewook Nam**, Juyong Lee, Jesse Zhang, Sung Ju Hwang, Joseph J Lim, Karl Pertsch
 
 ---
