@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Taewook Nam | Robot Learning & Reinforcement Learning"
+title                    : "Taewook Nam | Personal Website"
 title_separator          : "-"
 name                     : &name "Taewook Nam"
 description              : &description "PhD Student at KAIST"   # Update this with a general description of your site, this is the default if not overridden by a page
