@@ -7,6 +7,7 @@ redirect_from:
   - /about.html
 ---
 
+
 I am a PhD student in the MLAI Lab at KAIST, advised by Prof. Sung Ju Hwang.  
 I completed my MS in the same group and received my BS in Computer Science from KAIST.  
 My research interest is to extend the successes of machine learning to the physical world, with a focus on reinforcement learning and pre-training for efficient RL.
