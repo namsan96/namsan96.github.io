@@ -351,3 +351,11 @@
     margin-top: 6px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .author__avatar,
+  .author__content,
+  .author__urls-wrapper {
+    display: block;
+  }
+}
