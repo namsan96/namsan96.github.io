@@ -339,16 +339,17 @@
   }
 
   .author__avatar {
-    width: auto;
+    display: block;      // flex-item 기본 처리
     margin-bottom: 8px;
   }
 
-  // .author__avatar img {
-  //   width: 80px;     // 원하는 크기
-  //   height: 80px;    // 정사각형이면 이 정도
-  //   border-radius: 50%;
-  //   object-fit: cover;
-  // }
+  .author__avatar img {
+    width: 80px;         // 원하는 사진 크기
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;      // div 안에서 제대로 크기 잡히도록
+  }
 
   .author__urls-wrapper {
     margin-top: 4px;
