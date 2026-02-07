@@ -332,20 +332,27 @@
       "avatar avatar"
       "content button";
 
-    justify-content: center;   // 🔑 grid 자체를 가운데
+    justify-content: center;   // grid 덩어리 자체 중앙
+    justify-items: center;     // 아이템 기본 중앙
     align-items: start;
+
     column-gap: 12px;
     row-gap: 8px;
-
     text-align: left;
-    justify-items: center;
+  }
+
+  /* 🔥 table-cell 끊기 */
+  .author__avatar,
+  .author__content,
+  .author__urls-wrapper {
+    display: block;
   }
 
   /* avatar */
   .author__avatar {
     grid-area: avatar;
-    justify-self: center;      // avatar 자체 중앙
-    margin: 0 0 8px;
+    justify-self: center;
+    margin-bottom: 8px;
     width: auto;
   }
 
@@ -358,7 +365,5 @@
   /* Links button */
   .author__urls-wrapper {
     grid-area: button;
-    justify-self: end;
   }
 }
-
