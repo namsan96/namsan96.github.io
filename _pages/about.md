@@ -34,8 +34,8 @@ My research interest is to extend the successes of machine learning to the physi
 ---
 
 ### Meta Dropout : Learning to Perturb Latent Features For Generalization
-**ICLR 2020** [[paper](https://openreview.net/pdf?id=jeLW-Fh9bV)] [[code](https://github.com/haebeom-lee/metadrop)]  
-**Taewook Nam**, Shao-Hua Sun, Karl Pertsch, Sung Ju Hwang, Joseph J. Lim
+**ICLR 2020** [[paper](https://openreview.net/pdf?id=BJgd81SYwr)] [[code](https://github.com/haebeom-lee/metadrop)]  
+Hae Beom Lee, **Taewook Nam**, Eunho Yang, Sung Ju Hwang
 
 <!--
 <div style="overflow: auto;">
